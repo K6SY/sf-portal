@@ -1,0 +1,28 @@
+site_name: ADM Software Factory Portal
+site_url: https://devops.neovia-adm.com/
+nav:
+  - Home: 'index.md'
+  - Software Factory:
+    - 'Presentation': 'software-factory/architecture.md'
+    - 'Workaround': 'software-factory/architecture.md'
+    - Tools Galaxy:
+      - 'Docker': 'software-factory/docker/index.md'
+      - 'Bitbucket': 'software-factory/bitbucket/index.md'
+      - 'JFrog Artifactory': 'software-factory/artifactory/index.md'
+      - 'Jenkins': 'software-factory/jenkins/index.md'
+      - 'SonarQube': 'software-factory/sonarqube/index.md'
+      - 'AquaSecurity': 'software-factory/aquasec/index.md'
+      - 'Robot Framework': 'software-factory/robot-framework/index.md'
+      - 'ELK Stack': 'software-factory/elk/index.md'
+      - 'Nginx': 'software-factory/nginx/index.md'
+      - 'Rundeck': 'software-factory/rundeck/index.md'
+      - 'Portainer': 'software-factory/portainer/index.md'
+      - 'Squash': 'software-factory/squash/index.md'
+  - Website Factory:
+    - 'Presentation': 'website-factory/test.md'
+    - 'Styling your docs': 'styling-your-docs.md'
+theme: readthedocs
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      separator: "_"
